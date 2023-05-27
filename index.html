@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUST DO IT</title>
+    <link rel="stylesheet" href="./script&style/style.css">
+    <!-- font family text for awsome writting -->
+    <!-- font-family: 'Tajawal', sans-serif; -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Changa&family=Hind+Siliguri&family=Orbitron:wght@400;500;600&family=Poppins:ital,wght@0,300;0,400;1,500&family=Tajawal&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Changa&family=Hind+Siliguri&family=Josefin+Sans:ital@1&family=Orbitron:wght@400;500;600&family=Poppins:ital,wght@0,300;0,400;1,500&family=Tajawal&display=swap" rel="stylesheet">
+    <!-- font awsome script kit for awsome icon -->
+    <script
+    src="https://kit.fontawesome.com/74894dafb2.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<!-- body container of todo web comes in this section  -->
+<body>
+    <div class="background_img">
+        <img src="./assets/todo_background2.jpg" alt="background_img">
+    </div>
+    <div class="todo_container">
+            <!-- 1st part of body container contains title and sun logo in separate container-->
+        <div class="todo-header">
+            <div id="todo-title">
+                T O D O  App
+            </div>
+             <!-- sun image for awsom animation preview on UI  -->
+            <div id="sun-theme">
+                <img src="./assets/sunlogo2.png">
+            </div>
+        </div>
+     <!-- 2nd part of container is for taking new todo input in form -->
+   <div class="input-container">
+    <form action="">
+        <input type="text" class="todo-input" placeholder="add a new todo...">
+        <button class="todo-button" type="submit">
+            <i class="fa-solid fa-plus"></i>new
+        </button>
+    </form>
+   </div>
+   <!-- 3rd part of body contains list discription -->
+   <div class="your-list">
+    <div id="your-title">
+    <p id="para">Your ToDoS <i class="fa-solid fa-hand-point-down"></i></p>
+    </div>
+    <div class="select">
+       <select name="todos" class="filter-todo">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="uncompleted">Uncompleted</option>
+       </select>
+    </div>
+   </div>
+     <!-- 4th secion of body container for appending todos  -->
+     <div class="todo-list-container">
+       <!-- Appended child list comes here  -->
+         <ul class="todo-list"></ul> 
+          <!-- WHEN YOU ADD NEW TODOS WILL BE APPENDED HERE 
+            <div class="todo">
+            <li class="todo-item">Raunak Kumari</li>
+            <button class="complete-btn">complete button icon</button>
+            <button class="trash-btn">trash(delete) button icon</button>
+           </div>-->
+     </div>
+     <!-- adding my github accont on ui -->
+     <div class="git-logo">
+        <a id="git-image" href="https://github.com/Raunakriya" target="_blank">
+            <img src="./assets/GitHub.png">
+        </a>
+     </div>
+    </div>
+  <script src="./script&style/script.js"></script>
+</body>
+</html>
